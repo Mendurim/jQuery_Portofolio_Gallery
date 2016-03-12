@@ -105,3 +105,26 @@ footer {
 	text-align: center;
 	padding-top: 10px; 
 }
+
+.overlay {
+	display: none;
+	background: #03899c url(../img/Overlay.png) no-repeat top center; 
+	color: #fff;
+	position: absolute;
+	top:0;
+	left: 0; 
+	z-index: 100; 
+	width: 85%; 
+	height:82%;
+	padding: 20px; 
+	border-radius: 5px; 
+	box-sizing: box-border;
+	pointer-events:none;
+	opacity: 0.4; 
+	filter: alpha(opacity=40);
+}
+
+/*.overlay h3{
+	margin: 0;
+	padding:0 ;  
+}*/
