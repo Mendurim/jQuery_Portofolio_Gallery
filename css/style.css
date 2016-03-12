@@ -124,6 +124,41 @@ footer {
 	filter: alpha(opacity=60);
 }
 
+
+
+@media(max-width: 768px ){
+	.logo, nav {
+		float: none; 
+		width:100%;
+		text-align: center; 
+
+	}
+
+	nav ul, nav li {
+		float: none; 
+		padding: 0;
+	}
+
+	nav li {
+		margin-bottom: 15px; 
+	}
+
+	#gallery li{
+		width: 48%;
+		margin-right: 8px; 
+	}
+}
+
+
+@media(max-width: 568px){
+	#gallery li {
+		width: 100%;
+		margin-right: 8px; 
+	}
+}
+
+
+
 /*.overlay h3{
 	margin: 0;
 	padding:0 ;  
