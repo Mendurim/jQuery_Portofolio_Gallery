@@ -120,8 +120,8 @@ footer {
 	border-radius: 5px; 
 	box-sizing: box-border;
 	pointer-events:none;
-	opacity: 0.4; 
-	filter: alpha(opacity=40);
+	opacity: 0.6; 
+	filter: alpha(opacity=60);
 }
 
 /*.overlay h3{
